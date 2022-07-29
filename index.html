@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+</head>
+<body>
+    <div class="score">
+      <a href="highscores.html">
+        View Highscores
+      </a>  
+    </div>
+
+    <div class="timer">
+        Time: <span id="time">0</span>
+    </div>
+
+    <div class="wrapper">
+        <div id="startscreen">
+            <h1>Javascript Quiz</h1>
+            <p>Choose the correct answer</p>
+            <button id="start">Start Quiz</button>
+        </div>
+    </div>
+
+    <div class="hidden" id="questions">
+        <h2 id="questionDisplay"></h2>
+        <div class="choices" id="choices"></div>
+    </div>
+
+    <div class="hidden" id="endGame">
+        <h2>Game Over</h2>
+        <p>Final Score: <span id="finalScore"></span></p>
+        <button id="submit">Submit Score</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
